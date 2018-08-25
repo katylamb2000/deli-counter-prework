@@ -5,7 +5,7 @@ def line (katz_deli)
     puts "The line is currently empty."
   else
     for name in katz_deli
-    puts "Currently serving #{katz_deli.length+1}. #{name}."
+    puts "The line is currently: #{katz_deli.length+1}. #{name}."
   end
 end
 def take_a_number (katz_deli, name) 
@@ -23,7 +23,6 @@ else
     
      puts "There is nobody waiting to be served!"
    end
- end
  end
 
  
