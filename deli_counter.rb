@@ -1,5 +1,10 @@
 katz_deli = [];
 
+def line (katz_deli)
+  if katz_deli.length ==0
+    puts "The line is empty"
+  end
+
 def take_a_number (katz_deli, name) 
  
   katz_deli.push(name)
