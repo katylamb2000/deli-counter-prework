@@ -7,7 +7,7 @@ def line (katz_deli)
     for name in katz_deli
     puts "Currently serving #{katz_deli.length+1}. #{name}."
   end
-
+end
 def take_a_number (katz_deli, name) 
  
   katz_deli.push(name)
