@@ -6,7 +6,7 @@ def line (katz_deli)
     puts "The line is currently empty."
   else
     
-    katz_deli.each_with_index  {|item, index| arr.push "#{index+1}. #{item}."}
+    katz_deli.each_with_index  {|item, index| arr.push "#{index+1}. #{item}"}
     
     puts "The line is currently: #{arr.join("") }"
   end
