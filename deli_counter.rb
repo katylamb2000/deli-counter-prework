@@ -1,12 +1,12 @@
-var katzDeli = [];
-def takeANumber (katzDeliLine, name) 
-  katzDeliLine.push(name)
-  katzDeli.push(name)
-  return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
+katz_deli = [];
+
+def take_a_number (katz_deli, name) 
+ 
+  katz_deli.push(name)
+  puts " #{name}.  #{katz_deli.length}."
 end
 
  def nowServing (katzDeliLine)
-  
   
   if (katzDeliLine.length >= 1) 
   puts "Currently serving #{katzDeliLine.shift()}." 
