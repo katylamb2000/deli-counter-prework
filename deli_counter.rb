@@ -10,7 +10,7 @@ def line (katz_deli)
 def take_a_number (katz_deli, name) 
  
   katz_deli.push(name)
-  puts " #{name}.  #{katz_deli.length}."
+  puts " #{katz_deli.length}. #{name}"
 end
 
  def nowServing (katzDeliLine)
