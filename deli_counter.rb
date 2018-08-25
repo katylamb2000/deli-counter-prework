@@ -17,21 +17,5 @@ else
    end
  end
    
-   def currentLine (katzDeliLine)
-     
-     
-     
   
-     if (katzDeliLine.length === 0)
-       
-       puts 'The line is currently empty.'
-      
-      else  
-    
-      var num = []; 
-      for name in katzDeliLine
-      num.push " #{[i+1]}. #{katzDeliLine[i]}"
-      
-      puts ("The line is currently:" + num)
-    end
   
