@@ -4,8 +4,9 @@ def line (katz_deli)
   if katz_deli.length ==0
     puts "The line is currently empty."
   else
-    for x in katz_deli
-    puts "The line is currently: #{+1}. #{x}."
+    katz_deli.each_with_index do |item, index|
+ 
+    puts "The line is currently: #{item}. #{index +1}."
   end
 end
 
