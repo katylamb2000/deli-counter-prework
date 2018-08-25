@@ -13,10 +13,10 @@ def take_a_number (katz_deli, name)
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
- def nowServing (katzDeliLine)
+ def now_serving (katz_deli)
   
   if (katz_deli.length >= 1) 
-  puts "Currently serving #{katzDeliLine.shift()}." 
+  puts "Currently serving #{katz_deli.shift()}." 
   
 else 
     
