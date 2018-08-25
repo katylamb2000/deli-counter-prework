@@ -8,7 +8,7 @@ end
 
  def nowServing (katzDeliLine)
   
-  if (katzDeliLine.length >= 1) 
+  if (katz_deli.length >= 1) 
   puts "Currently serving #{katzDeliLine.shift()}." 
   
 else 
